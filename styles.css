@@ -45,7 +45,7 @@ input[type=number] {
 .svg-container{
   margin:3rem auto;
   width:1370px;
-  /* height:1170px; */
+  height:1170px;
   display:grid;
   place-items:center;
   overflow: hidden;
