@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  width: 100%;
+  /* height: 100vh; */
+  display:flex;
+  flex-direction: column;
+}
+body h1{
+  margin:1rem auto;
+  text-align: center;
+}
+.input-container{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+}
+.svg-input{
+  width:200px;
+  height:34px;
+  margin:.5rem;
+  border:1px solid rgb(98, 97, 97);
+  padding:0 .5rem;
+}
+.input-label{
+  margin:0 .5rem;
+  word-spacing: 3px;
+  font-size: 1.2rem;
+}
+/* to hide buttons on input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.svg-container{
+  margin:3rem auto;
+  width:1370px;
+  /* height:1170px; */
+  display:grid;
+  place-items:center;
+  overflow: hidden;
+  background:lightcyan;
+  
+}
+.svg-container img{
+  width:100%;
+  height:100%;
+}
