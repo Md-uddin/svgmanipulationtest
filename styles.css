@@ -18,7 +18,7 @@ body h1{
   flex-direction: row;
   align-items:center;
 }
-.svg-input{
+.svg-input-container{
   width:200px;
   height:34px;
   margin:.5rem;
@@ -51,8 +51,4 @@ input[type=number] {
   overflow: hidden;
   background:lightcyan;
   
-}
-.svg-container img{
-  width:100%;
-  height:100%;
 }
